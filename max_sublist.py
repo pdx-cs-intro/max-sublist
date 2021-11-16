@@ -39,7 +39,7 @@ if __name__ == "__main__":
     def random_source(n):
         result = []
         for _ in range(n):
-            result.append(random.randrange(201) - 100)
+            result.append(random.randrange(-100, 101))
         return result
 
     # Check the identity that reversing the list just gives
